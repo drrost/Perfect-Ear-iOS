@@ -1,0 +1,6 @@
+framework module Pods_PerfectEarTests {
+  umbrella header "Pods-PerfectEarTests-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -13,6 +13,8 @@
 		112BE7FA21C6FE3600888818 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 112BE7F921C6FE3600888818 /* Assets.xcassets */; };
 		112BE7FD21C6FE3600888818 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 112BE7FB21C6FE3600888818 /* LaunchScreen.storyboard */; };
 		112BE80821C6FE3600888818 /* PerfectEarTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 112BE80721C6FE3600888818 /* PerfectEarTests.swift */; };
+		1F0D35258851D82880E10201 /* Pods_PerfectEar.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3696E625DF0CB6BFCAD7E8CF /* Pods_PerfectEar.framework */; };
+		579B1A222049E27D0CE13024 /* Pods_PerfectEarTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3396234510719DA2E5137F65 /* Pods_PerfectEarTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -26,6 +28,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		055FFE0FB5A77E3E4F1A2C3C /* Pods-PerfectEar.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PerfectEar.release.xcconfig"; path = "Pods/Target Support Files/Pods-PerfectEar/Pods-PerfectEar.release.xcconfig"; sourceTree = "<group>"; };
 		112BE7EF21C6FE3400888818 /* PerfectEar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PerfectEar.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		112BE7F221C6FE3400888818 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		112BE7F421C6FE3400888818 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -36,6 +39,11 @@
 		112BE80321C6FE3600888818 /* PerfectEarTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PerfectEarTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		112BE80721C6FE3600888818 /* PerfectEarTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PerfectEarTests.swift; sourceTree = "<group>"; };
 		112BE80921C6FE3600888818 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3396234510719DA2E5137F65 /* Pods_PerfectEarTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PerfectEarTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3696E625DF0CB6BFCAD7E8CF /* Pods_PerfectEar.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PerfectEar.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5FE8F5B6FB8E10616FAAE453 /* Pods-PerfectEarTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PerfectEarTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PerfectEarTests/Pods-PerfectEarTests.debug.xcconfig"; sourceTree = "<group>"; };
+		814926CEEF4814444E65CEF9 /* Pods-PerfectEarTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PerfectEarTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-PerfectEarTests/Pods-PerfectEarTests.release.xcconfig"; sourceTree = "<group>"; };
+		C8550A5E1312C32AC4E6D8CB /* Pods-PerfectEar.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PerfectEar.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PerfectEar/Pods-PerfectEar.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,6 +51,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1F0D35258851D82880E10201 /* Pods_PerfectEar.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -50,6 +59,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				579B1A222049E27D0CE13024 /* Pods_PerfectEarTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -62,6 +72,8 @@
 				112BE7F121C6FE3400888818 /* PerfectEar */,
 				112BE80621C6FE3600888818 /* PerfectEarTests */,
 				112BE7F021C6FE3400888818 /* Products */,
+				4D43761E039673929A2847BD /* Pods */,
+				3756960B44AA660094327E46 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -96,6 +108,26 @@
 			path = PerfectEarTests;
 			sourceTree = "<group>";
 		};
+		3756960B44AA660094327E46 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3696E625DF0CB6BFCAD7E8CF /* Pods_PerfectEar.framework */,
+				3396234510719DA2E5137F65 /* Pods_PerfectEarTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4D43761E039673929A2847BD /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C8550A5E1312C32AC4E6D8CB /* Pods-PerfectEar.debug.xcconfig */,
+				055FFE0FB5A77E3E4F1A2C3C /* Pods-PerfectEar.release.xcconfig */,
+				5FE8F5B6FB8E10616FAAE453 /* Pods-PerfectEarTests.debug.xcconfig */,
+				814926CEEF4814444E65CEF9 /* Pods-PerfectEarTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -103,6 +135,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 112BE80C21C6FE3600888818 /* Build configuration list for PBXNativeTarget "PerfectEar" */;
 			buildPhases = (
+				A5ABDD16AF80B94F80DDB4F0 /* [CP] Check Pods Manifest.lock */,
 				112BE7EB21C6FE3400888818 /* Sources */,
 				112BE7EC21C6FE3400888818 /* Frameworks */,
 				112BE7ED21C6FE3400888818 /* Resources */,
@@ -120,6 +153,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 112BE80F21C6FE3600888818 /* Build configuration list for PBXNativeTarget "PerfectEarTests" */;
 			buildPhases = (
+				E8140D255A4E4C89E1F6CA8E /* [CP] Check Pods Manifest.lock */,
 				112BE7FF21C6FE3600888818 /* Sources */,
 				112BE80021C6FE3600888818 /* Frameworks */,
 				112BE80121C6FE3600888818 /* Resources */,
@@ -191,6 +225,53 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		A5ABDD16AF80B94F80DDB4F0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PerfectEar-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E8140D255A4E4C89E1F6CA8E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PerfectEarTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		112BE7EB21C6FE3400888818 /* Sources */ = {
@@ -358,6 +439,7 @@
 		};
 		112BE80D21C6FE3600888818 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C8550A5E1312C32AC4E6D8CB /* Pods-PerfectEar.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Manual;
@@ -377,6 +459,7 @@
 		};
 		112BE80E21C6FE3600888818 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 055FFE0FB5A77E3E4F1A2C3C /* Pods-PerfectEar.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Manual;
@@ -396,6 +479,7 @@
 		};
 		112BE81021C6FE3600888818 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5FE8F5B6FB8E10616FAAE453 /* Pods-PerfectEarTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -416,6 +500,7 @@
 		};
 		112BE81121C6FE3600888818 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 814926CEEF4814444E65CEF9 /* Pods-PerfectEarTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
